@@ -1,0 +1,53 @@
+/*============== footer-area css ===============*/
+
+
+.footer-area {
+	padding-top: 115px;
+	
+	background: $baseColor;
+	@media (max-width: 991px) {
+		padding: 60px 0px;
+	}
+	.single-footer-widget {
+		@media (max-width: 991px) {
+			margin-bottom: 30px;
+		}
+
+		p{
+			color: #ffffff;
+		}
+
+		h4 {
+			font-size: 20px;
+			font-weight: 600;
+			margin-bottom: 25px;
+			color: $white;
+			@media (max-width: 1024px) {
+				font-size: 20px;
+			}
+			@media (max-width: 991px) {
+				margin-bottom: 15px;
+			}
+		}
+		ul {
+			li {
+				margin-bottom: 10px;
+				a {
+					@include transition();
+					color: #ffffff;
+					&:hover {
+						color: $baseColor;
+					}
+				}
+			}
+		}
+	
+		
+	
+
+@media (max-width: 991px){
+	.header_area .navbar-collapse {
+		padding: 15px 0px;
+	}
+}
+@media (max-width: 767px){
